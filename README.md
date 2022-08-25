@@ -12,7 +12,7 @@ Download and install RStudio Desktop following the instructions at [https://www.
 
 
 #### 3. Install relevant packages
-Open R studio, and the bottom left section of the screen will show a console. Paste the following code into the console and hit Enter. This will install the R packages that are required to run the app.
+Open R studio, paste the following code into the console and hit Enter. This will install the R packages that are required to run the app.
 
 ``` r
 install.packages(c("devtools", "shinydashboard"))
