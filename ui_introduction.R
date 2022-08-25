@@ -1,0 +1,20 @@
+introduction_tab <- tabItem(
+  tabName = "introduction",
+  h1("Introduction"),
+  "This shiny app runs the model developed by Tidbury et al (2021). The model represents biological and economic elements of a fishery using a systems dynamics approach, incorporating feedbacks and links considered most important for the dynamics of the sea bass population, commercial fisheries, and recreational fisheries.",
+
+  h3("Using the app"),
+  "To run a simulation from the app, go to the \"Set Parameters\" tab from the drawer and use the sliders and inputs to set the desired parameters for a model run. When you are happy, use the \"Simulation Time\" slider in the drawer to set the duration of the simulation, and click \"Run Simulation\". Then go to the \"Simulation Results\" tab to view predictions for the stock size, economic impact, number of commercial trips, and number of recreational trips across the simulation.",
+  br(),
+  "To compare different runs, click \"Save run\" after a simulation has been performed, then change parameter values on the second tab and run the updated model. The \"Simulation Results\" tab will then display graphs comparing the output of each  run. To clear the saved simulation, click \"Reset runs\".",
+  br(),
+  "To save a set of parameters, click the \"Download parameters\" button in the \"Set Parameters\" tab. To upload a set of parameters, use the \"Upload parameters\" file upload below. This will automatically populate the inputs on the \"Set Parameters\" tab.",
+  fileInput("file_params", "Upload parameters",
+            multiple = FALSE,
+            accept = c(".csv")),
+  "To download results from a simulation, click \"Download Results\" at the bottom of the \"Simulation Results\" tab.",
+  #h3("Model Extension"),
+  #"This version of the model uses a different parametrisation of the mortality to the original Tidbury et al model.",
+  h3("References"),
+  "Hannah J Tidbury, Angela Muench, Philip D Lamb, Kieran Hyder, \"Balancing biological and economic goals in commercial and recreational fisheries: systems modelling of sea bass fisheries\"",
+  em("ICES Journal of Marine Science"), ", Volume 78, Issue 5, August 2021, Pages 1793-1803")
