@@ -1,5 +1,5 @@
 # FishRAM Shiny App
-This guide outlines how to download the necessary materials to run the Fisheries Resource Allocaiton Model (FishRAM) through a Shiny application. 
+This guide outlines how to download the necessary materials to run the Fisheries Resource Allocation Model (FishRAM) through a Shiny application. 
 
 ## Initial Setup
 #### 1. Install R
