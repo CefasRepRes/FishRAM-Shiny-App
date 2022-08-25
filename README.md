@@ -1,5 +1,5 @@
 # FishRAM Shiny App
-A Shiny app to run the Fisheries Resource Allocaiton Model 
+This guide outlines how to download the necessary materials to run the Fisheries Resource Allocaiton Model (FishRAM) through a Shiny application. 
 
 ## Initial Setup
 #### 1. Install R
