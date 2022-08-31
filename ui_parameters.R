@@ -1,5 +1,5 @@
 initial_values_box <-     box(
-  title = "Inital Values",
+  title = "Initial Values",
   status = "info",
   solidHeader = TRUE,
   tags$div(title = "The juvenile stock size in numbers at the start of the simulation.",
